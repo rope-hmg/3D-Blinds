@@ -15,5 +15,8 @@ In another shell run:
 
 ```bash
 cd ./web
+npm i
 npx vite
 ```
+
+On the first run, the web page will fail to load because the wasm won't have compiled yet. It should automatically start, but if not try refreshing the page. It can take a minute or so (Rust is slow).
